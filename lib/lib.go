@@ -1,3 +1,3 @@
 package lib
 
-var Hello = "hello world"
+var Hello = "HELLO WORLD"
