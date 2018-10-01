@@ -1,9 +1,13 @@
 package main
 
 import (
-	"github.com/hyangah/testmod2/lib"
+	"github.com/hyangah/testmod2/v2/lib"
 )
 
 func main() {
-	println(lib.Hello)
+	println(Hello())
+}
+
+func Hello() string {
+	return lib.Hello
 }
